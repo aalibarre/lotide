@@ -33,3 +33,10 @@ const without = function(source, itemsToRemove) {
  return sourceWithout;
 }
 without([1, 2, 3], [1])
+
+// The question is to implement a function that will return a new array that removes the unwanted elements. Also, the question provided us with the names of 
+//the arguments also known as the paramtere of teh function. The first step was to creat a new variable that would hold the new array we will make 
+// as we are unaware of the contents of the array, the array is left empty. A for loop was made to loop so that all the elements are looped through. Then an if stament was 
+// required as teh function had to remove the unwanted items. By stating if (source[i] === itemsToRemove[i]) we are using the index 
+//because we are looking at the index of the array. If its not equal then push the new array to our variable sourceWithout. Then we both return and console.log 
+//sourceWithout. 

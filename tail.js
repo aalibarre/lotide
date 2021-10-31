@@ -6,14 +6,14 @@ const tail = function(array) {
 const assertEqual = function(actual, expected) {
   if (actual === expected) {
     console.log(`✅✅✅ Passed: ${actual} === ${expected}`);
-  } else {
+  } else { 
     console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
   }
 };
 assertEqual("Lighthouse Labs", "Bootcamp");
 assertEqual(1, 1);
 
-// Test Case 1: Check the returned array elements
+// Test Case 1: Check the returned array elements HEYYYY ASHA SAGAL ZAK STEFAN
 const result = tail(["Hello", "Lighthouse", "Labs"]);
 assertEqual(result.length, 2); // ensure we get back two elements
 assertEqual(result[0], "Lighthouse"); // ensure first element is "Lighthouse"
