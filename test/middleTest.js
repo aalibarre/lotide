@@ -2,8 +2,16 @@ const eqArrays = require('../eqArrays');
 const assertArrayEqual = require('../assertArrayEqual');
 const middle = require('../middle');
 
+const assert = require('chai').assert;
 
-middle([1]); // => []
-middle([1, 2]);
-console.log(middle([1, 4,7,6]));
+describe("middle", () => {
+    it("it should give middle value", () => {
+      assert.deepEqual(middle([1,2,3,4,5]), [3]);
+    }); 
+  });
+
+
+
+
+
 
