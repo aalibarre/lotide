@@ -7,11 +7,11 @@ const assertEqual = require('./assertEqual');
 
 
 module.exports = {
-  head:   head,
-  tail:   tail,
-  middle: middle,
-  assertArrayEqual: assertArrayEqual,
-  eqArrays: eqArrays,
-  assertEqual: assertEqual
+  head,
+  tail,
+  middle,
+  assertArrayEqual,
+  eqArrays,
+  assertEqual
 };
 
